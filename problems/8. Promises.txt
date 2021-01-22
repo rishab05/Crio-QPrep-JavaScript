@@ -1,0 +1,72 @@
+Problem Description
+Given as inputs to the getLastNames() function
+
+A string representing a first name, firstName.
+
+An Array of person objects with properties, "firstName" and “lastName”
+
+
+Return a JavaScript Promise which is either
+
+rejected with a message "Invalid" if none of the person objects“firstName” property matches the input first name,firstName`
+
+resolved with an sorted Array of "lastName" property values of objects whose “firstName” property matches the given first name, firstName
+
+
+Note
+
+The "lastName"s array should be sorted in alphabetical order
+
+Function to return a Promise object and not a String or Array
+
+
+Input
+firstName which is a string containing the first name.
+
+people which is an Array of objects containing the names.
+
+Output
+Return the required Promise
+
+Sample input 1
+
+firstName = 'David'
+
+people = [
+
+        {
+
+            firstName: 'David',
+
+            lastName: 'Dobrick'
+
+        },
+
+        {
+
+            firstName: 'David',
+
+            lastName: 'Beckham'
+
+        },
+
+        {
+
+            firstName: 'Chris',
+
+            lastName: 'Lee'
+
+        },
+
+        {
+
+            firstName: 'James',
+
+            lastName: 'Bond'
+
+        },
+
+    ]
+
+Sample output 1
+Should resolve to - ['Beckham', 'Dobrick']
