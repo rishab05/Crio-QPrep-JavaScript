@@ -1,5 +1,10 @@
 # Crio-QPrep-JavaScript
-It have programs related to Crio's microbyte Qprep-JavaScript
+It have programs related to Crio's microbyte Qprep-JavaScript which is a free byte and will help you start building application with JavaScript.
+You can go to <a href="https://www.crio.do/">Crio Website</a> for more learn by doing activity.
+
+# Details
+This repo have two folder - problems and solutions and as the name suggest they have all 9 problems text file and there solutions in JavaScript.
+<br>
 <table>
   <tr>
     <th>ID</th>
