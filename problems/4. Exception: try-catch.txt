@@ -1,0 +1,17 @@
+Problem Description
+The getX(x) function returns its parameter x normally under all conditions but throws an error if x equals 5. This must error must be "caught" by the errorHandler() function.
+
+
+Complete the errorHandler() function such that:
+
+errorHandler() function should call the function getX()
+
+Input to getX() should be x ie. getX(x),
+
+Return the result obtained from getX() function, if error occurs catch and return the error.
+
+Input
+You are given an integer named, x.
+
+Output
+Complete the errorHandler function as per the given statement
