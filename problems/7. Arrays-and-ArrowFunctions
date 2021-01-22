@@ -1,0 +1,22 @@
+Problem Description
+Create an arrow function named modify() which takes an integer array as input and modify the array as follows -
+
+If an element of the array is prime, then add one to the element
+
+If an element of the array is not prime, then multiply the element by 2.
+
+
+Return the modified array.
+
+
+Input -
+You are given an array named, array.
+
+Output -
+Return the array after modifying it.
+
+Sample input 1 -
+[1, 2, 3, 4, 5]
+
+Sample output 1 -
+[2, 3, 4, 8, 6]
