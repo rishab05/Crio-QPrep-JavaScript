@@ -1,0 +1,14 @@
+Problem Description
+Given an input N, complete the function evenNumbers() to return all even numbers in the range [0, N] in the form of an Array.
+
+Input
+You are given an integer N.
+
+Output
+Return the array containing even numbers.
+
+Sample input 1
+6
+
+Sample output 1
+[0, 2, 4, 6]
