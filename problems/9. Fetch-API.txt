@@ -1,0 +1,61 @@
+Problem Description
+You are given the following API -
+
+
+GET /api/comments
+
+
+This will return a list of all comments. A comment object contains the following information
+
+userId - ID of the user who commented
+
+data - comment data
+
+
+Given a userId, return an Array of comment data of all the comments by the given user.
+
+Note
+Apart from .json(), don’t use any other methods on the response object returned from fetch() call. This can cause your tests to fail.
+
+
+Input -
+userId - the user id whose comment is to be returned.
+
+Output -
+A list of comments by the given user id
+
+Sample input 1 -
+
+userId = 1
+
+Sample API response
+
+
+comments = [
+
+{
+
+    'userId': '1',
+
+    "data": 'This looks slick!'
+
+},
+
+{
+
+    'userId': '2',
+
+    "data": 'I think this can be improved.'
+
+},
+
+{
+
+    'userId': '1',
+
+    "data": 'What kind of improvement?'
+
+}]
+
+Sample output 1 -
+['This looks slick!', 'What kind of improvement?']
